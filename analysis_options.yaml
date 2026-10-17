@@ -18,6 +18,8 @@ analyzer:
     avoid_function_literals_in_foreach_calls: ignore
     parameter_assignments: ignore
     cascade_invocations: ignore
+  exclude:
+    - build/**
 linter:
   rules:
     - always_declare_return_types
